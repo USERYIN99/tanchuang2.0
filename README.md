@@ -9,7 +9,7 @@
 
         function showDinnerInvitation() {
             while (true) {
-                var userResponse = confirm("一起吃饭呗！");
+                var userResponse = confirm("一起吃饭呗！同意点确定，拒绝点取消");
                 if (userResponse) {
                     alert("太好了，我们一起去吃饭吧！");
                     canClosePage = true; // 用户同意后允许关闭页面
